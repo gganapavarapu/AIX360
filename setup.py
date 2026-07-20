@@ -18,6 +18,7 @@ extra_requires = {
         "scipy>=0.17,<=1.10.1",
         "scikit-learn<1.2.0",
         "cvxpy>=1.1",
+        "ecos",
         "numpy<=1.24.3",
     ],
     "profwt": [
@@ -43,6 +44,7 @@ extra_requires = {
     "rule_induction": [
         "matplotlib",
         "numba",
+        "numpy<2.0.0",
         "pandas<2.0.0",
         "scikit-learn",
         "nyoka",
@@ -85,6 +87,7 @@ extra_requires = {
         "tensorflow==2.9.3",
     ],
     "tsice": [
+        "numpy<2.0.0",
         "pandas<2.0.0",
         "scipy",
         "plotly",  # required for units
@@ -93,6 +96,7 @@ extra_requires = {
         "requests",  # required for dataset and units
     ],
     "tssaliency": [
+        "numpy<2.0.0",
         "pandas<2.0.0",
         "requests",  # required for dataset and units
     ],
@@ -106,6 +110,7 @@ extra_requires = {
         "pygraphviz",  # for creating graph visualization
     ],
     "tslime": [
+        "numpy<2.0.0",
         "pandas<2.0.0",
         "scipy",
         "requests",  # required for dataset and units
